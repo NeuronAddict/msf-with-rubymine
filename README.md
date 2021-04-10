@@ -5,6 +5,13 @@ How to use metasploit with RubyMine
 Install the packages in the first step of this :
 https://github.com/rapid7/metasploit-framework/wiki/Setting-Up-a-Metasploit-Development-Environment
 
+
+On kali linux : 
+
+```
+apt install -y libsqlite3-dev libpcap-dev libpq-dev oracle-instantclient-devel
+```
+
 ## 2. Add a Gemfile in ~/.msf4 :
 ```
 # ~/.msf4/Gemfile
